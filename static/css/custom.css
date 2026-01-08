@@ -1,0 +1,157 @@
+/* =========================
+   HERO SECTION
+========================= */
+.hero-section {
+  padding-top: 80px;
+  background-color: #eef1f4;
+}
+
+.hero-section h1 {
+  line-height: 1.2;
+}
+
+.hero-section p {
+  color: rgba(70, 7, 7, 0.85) !important;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+.shadow-hover {
+  transition: all 0.3s ease;
+}
+
+.shadow-hover:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* =========================
+   STATS GRID
+========================= */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.stat-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================
+   FEATURE CARDS
+========================= */
+.feature-card {
+  padding: 2rem;
+  background: #fff;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.1);
+}
+
+/* =========================
+   ICON BOX
+========================= */
+.icon-box {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =========================
+   CARD HOVER
+========================= */
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+/* =========================
+   AVATAR
+========================= */
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #656587, #4f46e5);
+}
+
+.bg-gradient-success {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.bg-gradient-purple {
+  background: linear-gradient(135deg, #a855f7, #7c3aed);
+}
+
+/* =========================
+   CTA SECTION
+========================= */
+.bg-gradient-cta {
+  background: linear-gradient(135deg, #4f46e5, #22c55e);
+}
+
+/* =========================
+   ANIMATIONS
+========================= */
+.animate-up {
+  animation: fadeUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+.animate-up.delay-1 {
+  animation-delay: 0.2s;
+}
+.animate-up.delay-2 {
+  animation-delay: 0.4s;
+}
+.animate-up.delay-3 {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* =========================
+   FOOTER LINKS
+========================= */
+footer a:hover {
+  color: #22c55e !important;
+}
